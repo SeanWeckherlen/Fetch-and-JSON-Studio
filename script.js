@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
         //console.log(response); //just checking whats in response
         // i want the json() out of the response object   
         response.json().then(function (json) {
-            console.log(json); //just seeing whats inside the json
+            //console.log(json); //just seeing whats inside the json
             // it is an array of objects. what im looking for 
             //console.log(json.length); //has a legnth of 7
             let jsonArray = json;
